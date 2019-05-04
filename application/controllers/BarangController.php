@@ -18,11 +18,7 @@ class BarangController extends CI_Controller
     }
 
     // public function index(){
-    //     redirect("barang/lists"); // Untuk redirect ke function lists
-    //   }
-      
-    //   public function lists(){
-    //     $data['model'] = $this->Barang_model->view(); // Panggil fungsi view() yang ada di model siswa
+    //     $data['model'] = $this->Barang_model->view();
         
     //     $this->load->view('barang/list_barang', $data);
     //   }

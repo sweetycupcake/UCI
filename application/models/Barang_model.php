@@ -65,7 +65,7 @@ class Barang_model extends CI_Model
 
     //     $data['barang'] = $this->db->query($query)->result();
     // }
-
+    
     public function getAll()
     {
         return $this->db->get($this->_table)->result();
